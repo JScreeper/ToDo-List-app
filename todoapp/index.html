@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do Lista sa Grupama</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="todo-container">
+    <h1>Moja To-Do Lista</h1>
+
+    <!-- BROJAČ / COUNTER -->
+    <div id="taskCounter">
+        Izaberi grupu za prikaz zadataka
+    </div>
+
+    <!-- DODAVANJE GRUPE / ADD GROUP -->
+    <div class="input-section">
+        <input type="text" id="groupInput" placeholder="Nova grupa...">
+        <button id="addGroupBtn">Dodaj grupu</button>
+    </div>
+
+    <!-- LISTA GRUPa / GROUPS LIST -->
+    <div id="groupsContainer" class="groups-container">
+        <!-- Renderovane grupe / Rendered groups -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
